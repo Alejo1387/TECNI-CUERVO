@@ -7,6 +7,11 @@ export function Hero() {
     window.open(whatsappUrl, '_blank');
   };
 
+  const handleTiktokClick = () => {
+    const tiktokUrl = 'https://www.tiktok.com/@tecnicuervo?_r=1&_t=ZS-96OEYOnJr9R';
+    window.open(tiktokUrl, '_blank');
+  }
+
   return (
     <section className="hero" id="hero">
       <div className="hero-container">
@@ -19,7 +24,7 @@ export function Hero() {
         </p>
         <div className="hero-buttons">
           <button className="btn btn-primary" onClick={handleWhatsAppClick}>Solicitar Servicio</button>
-          <button className="btn btn-secondary">Más Información</button>
+          <button className="btn btn-secondary" onClick={handleTiktokClick}>Más Información</button>
         </div>
         <div className="hero-icons">
           {/* Tablet */}
