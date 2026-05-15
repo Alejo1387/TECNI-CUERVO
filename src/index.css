@@ -514,7 +514,6 @@ button:focus-visible {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
-}
   display: inline-flex;
   border-radius: 4px;
   color: var(--text-h);
